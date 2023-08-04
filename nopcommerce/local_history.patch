@@ -1,0 +1,24 @@
+Index: src/test/java/Runner/Runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Runner/Runner.java b/src/test/java/Runner/Runner.java
+--- a/src/test/java/Runner/Runner.java	
++++ b/src/test/java/Runner/Runner.java	(date 1690660110053)
+@@ -1,5 +1,6 @@
+ package Runner;
+-import Tests.TestHome;
++import Pages.HomePage;
++
+ import io.cucumber.testng.CucumberOptions;
+ 
+ 
+@@ -8,6 +9,6 @@
+         ,plugin ={"pretty","html:target/cucumber-html-report"})
+ 
+ 
+-public class Runner extends TestHome {
++public class Runner extends HomePage {
+ 
+ }
